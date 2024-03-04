@@ -1,7 +1,7 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es2021": true
+        "es6": true
     },
     "extends": "eslint:recommended",
     "overrides": [
@@ -18,7 +18,7 @@ module.exports = {
         }
     ],
     "parserOptions": {
-        "ecmaVersion": "latest",
+        "ecmaVersion": "2016",
         "sourceType": "module"
     },
     "rules": {
