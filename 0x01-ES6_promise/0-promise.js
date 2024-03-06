@@ -1,5 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-function getResponseFromApi() {
+export default function getResponseFromApi() {
   return new Promise(() => {
   });
 }
